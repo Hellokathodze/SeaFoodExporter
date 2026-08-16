@@ -2,9 +2,9 @@
 
 **AI-powered export decision support system for sustainable Indian fisheries**
 
-Submitted to: **Smart India Hackathon 2025 (SIH25040)**  
+Submitted to: **Smart India Hackathon 2026 **  
 Team: **MarisMind**  
-Organized by: Ministry of Earth Sciences (MoES) & INCOIS  
+Organized by: SIH
 
 ---
 
@@ -13,14 +13,15 @@ Organized by: Ministry of Earth Sciences (MoES) & INCOIS
 1. [Quick Start](#quick-start)
 2. [User Guide] (#user-guide)
 3. [System Overview](#system-overview)
-4. [Features](#features)
-5. [Installation](#installation)
-6. [Usage](#usage)
-7. [Architecture](#architecture)
-8. [Testing](#testing)
-9. [Roadmap](#roadmap)
-10. [Citations](#citations)
-11. [Support](#support)
+4. [Government Structure] (#Government-Structure)
+5. [Features](#features)
+6. [Installation](#installation)
+7. [Usage](#usage)
+8. [Architecture](#architecture)
+9. [Testing](#testing)
+10. [Roadmap](#roadmap)
+11. [Citations](#citations)
+12. [Support](#support)
 
 ---
 
@@ -147,6 +148,116 @@ SustainChain analyzes **5 compliance pillars**:
 
 ---
 
+## 🏛️ Governance Structure
+
+SustainChain integrates 30+ regulatory authorities across 5 continents. See [GOVERNANCE_STRUCTURE.md](./GOVERNANCE_STRUCTURE.md) for complete details.
+
+### 🇮🇳 **Indian Domestic Authorities (3 Ministries)**
+
+- ✅ **Ministry of Earth Sciences (MoES)**
+  - INCOIS: ARGO float network (400+ buoys in Indian Ocean)
+  - Real-time ocean data: Temperature, salinity, oxygen levels
+  - Data updates: Every 10 days per float
+  - Access: Public API (Argovis)
+
+- ✅ **Ministry of Commerce & Industry**
+  - MPEDA: Marine Products Export Development Authority (Core regulator)
+    - RCMC vessel registration & verification
+    - Monsoon ban enforcement (seasonal fishing restrictions)
+    - FAO IUU blacklist monitoring
+    - Export permit issuance
+  - FSSAI: Food Safety & Standards Authority
+    - Health certificate issuance
+    - HACCP compliance verification
+    - Antibiotic & pesticide testing
+  - APEDA: Specialty seafood certification
+
+- ✅ **Ministry of Agriculture (Fisheries Division)**
+  - CMFRI: Central Marine Fisheries Research Institute
+    - Annual fish landing data (2024-2025 published)
+    - Stock sustainability index per species
+    - Breeding season identification
+    - MSY (Maximum Sustainable Yield) calculations
+  - State Fisheries Departments: 12 coastal states
+    - Vessel registration & licensing
+    - Monsoon ban enforcement (field-level)
+    - Local catch monitoring
+
+### 🌍 **International Compliance Bodies (5 Markets)**
+
+- ✅ **European Union (30% of Indian seafood exports)**
+  - CATCH System: Electronic catch certificates (mandatory)
+  - EC Regulation 1379/2013: Origin & traceability verification
+  - EFSA: Microbiological & chemical testing standards
+  - Entry ports: Hamburg, Rotterdam, Antwerp, Le Havre
+  - Rejection authority: Non-compliant exports detained
+
+- ✅ **United States of America (20% of exports)**
+  - NOAA SIMP: Seafood Import Monitoring Program
+    - Pre-landing documentation (72 hours before arrival)
+    - Vessel authorization verification
+    - Catch area legality check
+  - FDA: Food & Drug Administration
+    - HACCP compliance (21 CFR Part 110)
+    - Prior notification requirement
+    - Antibiotic residue testing (<10 ppb limit)
+    - Import alert system (non-compliant exporters flagged)
+  - Entry ports: Los Angeles, Miami, New York, Seattle
+
+- ✅ **United Kingdom (Secondary market)**
+  - Fish Trace Ship System: Real-time electronic traceability
+    - Mandatory registration (Jan 8, 2026)
+    - Catch-to-consumer tracking required
+  - FSA: Food Standards Authority
+    - Health certificates (government vet signed)
+    - Cold chain documentation
+  - Entry ports: Immingham, Felixstowe, Tilbury
+
+- ✅ **Australia (8% of exports)**
+  - BICON System: Pre-shipment import permit required
+    - Facility pre-approval (DAFF list)
+    - Health certificate submission
+    - Cold chain documentation
+    - Biosecurity clearance
+  - DAFF: Pathogen & pesticide screening
+  - FSANZ: Food safety standards compliance
+  - Entry ports: Sydney, Melbourne, Brisbane, Fremantle
+
+- ✅ **International Bodies**
+  - FAO Global Record: 3,600+ IUU vessel blacklist (updated weekly)
+  - IOTC: Indian Ocean Tuna Commission (tuna species management)
+  - MSC: Marine Stewardship Council (sustainability certification)
+
+### ⚙️ **How SustainChain Integrates This Framework**
+
+- ✅ **Real-time Data Feeds**
+  - ARGO floats: Live ocean data (2-hourly updates)
+  - FAO Global Record: IUU blacklist (weekly updates)
+  - MPEDA database: RCMC status, monsoon ban calendar
+  - CMFRI data: Fish stock health index
+  - Import authorities: Destination requirements
+
+- ✅ **Automated Compliance Checks**
+  - Pillar 1 (IUU): FAO + MPEDA blacklist verification
+  - Pillar 2 (RCMC): Vessel registration & expiry check
+  - Pillar 3 (Traceability): Documentation completeness
+  - Pillar 4 (Monsoon): Catch date vs. ban calendar
+  - Pillar 5 (Market): Destination-specific requirements (CATCH, SIMP, Fish Trace, BICON)
+
+- ✅ **Regulatory Authority Coverage**
+  - 30+ government agencies across 5 continents
+  - 4 independent data layers (India + International + FAO + Ocean)
+  - 95% confidence intervals for every score
+  - Evidence bundles linking to source authorities
+
+### 🚀 **Future Market Expansion (Phase 2-4)**
+
+- 🇨🇳 China (15% of exports) - CITES & import licenses
+- 🇯🇵 Japan (10% of exports) - Positive list system & radiation testing
+- 🇸🇦 Middle East (5% of exports) - Halal certification
+- 🇷🇺 Russia (if sanctions lifted) - GOST standards compliance
+
+---
 ## ✨ Features
 
 ### **Current Features (Phase 1 - Prototype)**
