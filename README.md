@@ -11,15 +11,16 @@ Organized by: Ministry of Earth Sciences (MoES) & INCOIS
 ## 📋 Table of Contents
 
 1. [Quick Start](#quick-start)
-2. [System Overview](#system-overview)
-3. [Features](#features)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Architecture](#architecture)
-7. [Testing](#testing)
-8. [Roadmap](#roadmap)
-9. [Citations](#citations)
-10. [Support](#support)
+2. [User Guide] (#user-guide)
+3. [System Overview](#system-overview)
+4. [Features](#features)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Architecture](#architecture)
+8. [Testing](#testing)
+9. [Roadmap](#roadmap)
+10. [Citations](#citations)
+11. [Support](#support)
 
 ---
 
@@ -47,6 +48,56 @@ npm run dev
 # - Hold Status (Expected: 57)
 # - Australia Export (Expected: 100)
 ```
+## 📖 User Guide
+
+New to SustainChain? Start here to learn how to use the platform.
+
+See **[USER_GUIDE.md](./USER_GUIDE.md)** for comprehensive instructions including:
+
+- **Getting Started** - 5-minute quick start guide
+- **Platform Walkthrough** - Complete feature tour
+  - Export Details panel (vessel, catch, documents)
+  - Export Safety Score display (gauge + breakdown)
+  - Compliance Breakdown (5 pillars explained)
+  - Critical Issues detection
+  - Evidence Bundle (data sources)
+
+- **Understanding Your Score** - How scores work
+  - 5 Scoring Pillars explained:
+    - IUU Compliance (FAO blacklist check)
+    - MPEDA RCMC (vessel registration status)
+    - Catch Traceability (documentation check)
+    - Monsoon Ban Compliance (seasonal rules)
+    - Market Compliance (destination-specific rules)
+  - Decision bands (GREEN/YELLOW/RED)
+  - Confidence intervals
+
+- **5 Real Test Scenarios** - Examples with explanations
+  - Good Export (Score: 83 - PROCEED)
+  - IUU Blacklist (Score: 0 - BLOCKED)
+  - Monsoon Ban (Score: 0 - BLOCKED)
+  - Hold Status (Score: 57 - REVIEW)
+  - Australia Export (Score: 100 - PERFECT)
+
+- **FAQ & Troubleshooting** - Common questions answered
+  - What does "PROCEED" mean?
+  - Can I export with a HOLD score?
+  - What if I disagree with the score?
+  - Technical troubleshooting
+
+- **Quick Reference Cards** - Checklists and lookup tables
+  - Score interpretation quick reference
+  - Common issues & fixes
+  - Monsoon ban dates by region
+  - Pre-export checklist
+
+**Read USER_GUIDE.md if you want to:**
+- Understand how to use SustainChain
+- Learn what each score means
+- See real export examples
+- Troubleshoot problems
+- Get ready for your first export
+
 
 ---
 
@@ -542,18 +593,18 @@ Solution:
 
 ## 📄 License
 
-**CC0 1.0 Universal (Public Domain)**
+**CC0 1.0 Universal (Private Domain)**
 
-This work is dedicated to the public domain under CC0 1.0 Universal.
-You are free to use, modify, and distribute without restriction.
+This work is dedicated to the private domain under CC0 1.0 Universal.
+You are not free to use, modify, and distribute without restriction.
 
 ---
 
 ## 👥 Team
 
-**MarisMind** - Smart India Hackathon 2025  
+**MarisMind** - Smart India Hackathon 2026 
 Submitted to: Ministry of Earth Sciences (MoES) & INCOIS  
-Problem Statement: SIH25040
+Problem Statement: Unique
 
 ---
 
@@ -581,7 +632,7 @@ Problem Statement: SIH25040
 ---
 
 **Last Updated:** August 16, 2026  
-**Version:** 1.0.0 (Phase 1 - MVP)  
+**Version:** 1.0.0 (Phase 1 - Prototype)  
 **Status:** Ready for Aug 20 Pitch 🚀
 
 ---
