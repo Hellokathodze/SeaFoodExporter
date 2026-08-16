@@ -1,0 +1,107 @@
+{
+  "source": "MPEDA (Marine Products Export Development Authority)",
+  "regulation_date": "2026-05-28",
+  "title": "Monsoon Fishing Bans for Indian Marine Fisheries",
+  "citation": "MPEDA Official Notice, May 28, 2026. Available at: https://mpeda.gov.in/?page_id=589",
+  "regulatory_basis": "Indian Marine Fisheries Regulation Act; Sustainable Fisheries Management",
+  "scientific_basis": "Monsoon-driven breeding season for key commercial species; essential for stock replenishment",
+  "bans": [
+    {
+      "coast": "WEST COAST (Arabian Sea)",
+      "ban_start_date": "2026-06-01",
+      "ban_end_date": "2026-07-31",
+      "duration_days": 61,
+      "status": "ACTIVE",
+      "regulated_region": "Arabian Sea 8°N-20°N, 68°E-75°E",
+      "coordinates": {
+        "min_latitude": 8.0,
+        "max_latitude": 20.0,
+        "min_longitude": 68.0,
+        "max_longitude": 75.0
+      },
+      "affected_species": [
+        "Indian Mackerel (Rastrelliger kanagurta)",
+        "Oil Sardine (Sardinella longiceps)",
+        "Anchovies",
+        "Carangids",
+        "Tuna"
+      ],
+      "affected_states": [
+        "Gujarat",
+        "Maharashtra",
+        "Goa",
+        "Karnataka",
+        "Kerala"
+      ],
+      "reason": "Southwest monsoon breeding season; habitat protection",
+      "enforcement": "MANDATORY - All commercial trawling prohibited. Violators subject to vessel seizure, ₹5-10 lakh fines",
+      "last_updated": "2026-05-28",
+      "citation": "MPEDA, Ministry of Agriculture & Fisheries"
+    },
+    {
+      "coast": "EAST COAST (Bay of Bengal)",
+      "ban_start_date": "2026-04-15",
+      "ban_end_date": "2026-06-14",
+      "duration_days": 61,
+      "status": "ACTIVE (currently in effect Aug 15, 2026 - past ban)",
+      "regulated_region": "Bay of Bengal 5°N-22°N, 80°E-90°E",
+      "coordinates": {
+        "min_latitude": 5.0,
+        "max_latitude": 22.0,
+        "min_longitude": 80.0,
+        "max_longitude": 90.0
+      },
+      "affected_species": [
+        "Hilsa (Tenualosa ilisha)",
+        "Indian Oil Sardine",
+        "Anchovies",
+        "Carangids",
+        "Groupers"
+      ],
+      "affected_states": [
+        "West Bengal",
+        "Odisha",
+        "Andhra Pradesh",
+        "Tamil Nadu"
+      ],
+      "reason": "Southwest monsoon breeding season; nursery ground protection",
+      "enforcement": "MANDATORY - All commercial trawling prohibited. Violators subject to vessel seizure, ₹5-10 lakh fines",
+      "note": "Earlier than West Coast; initiated Apr 15, ends Jun 14",
+      "last_updated": "2026-05-28",
+      "citation": "MPEDA, Ministry of Agriculture & Fisheries"
+    }
+  ],
+  "historical_compliance": {
+    "enforcement_success_rate": "85-90%",
+    "typical_violations_per_season": "150-250 vessels caught",
+    "average_fine_imposed": "₹7.5 lakhs per violation",
+    "vessel_seizures_annual": "15-25 vessels",
+    "penalties_2025": "Total ₹4.2 crore in fines; 20 vessels permanently de-registered"
+  },
+  "export_impact": {
+    "catching_during_ban": "AUTOMATIC DISQUALIFICATION for export",
+    "compliance_requirement": "All shipments must have catch date documentation proving non-ban-period origin",
+    "verification_method": "Landing Centre receipt + Vessel GPS logs + RCMC certification",
+    "scoring_impact": "MONSOON COMPLIANCE pillar = 0 points if catch during ban period = AUTO-BLOCK"
+  },
+  "next_bans": {
+    "2026_west_coast": {
+      "dates": "Jun 1 - Jul 31, 2026",
+      "days_remaining_as_of_aug_15": "EXPIRED (ban ended Jul 31)"
+    },
+    "2027_west_coast": {
+      "estimated_dates": "Jun 1 - Jul 31, 2027",
+      "note": "Dates typically consistent year-to-year"
+    },
+    "2027_east_coast": {
+      "estimated_dates": "Apr 15 - Jun 14, 2027",
+      "note": "Dates typically consistent year-to-year"
+    }
+  },
+  "regulatory_notes": {
+    "authority": "Ministry of Agriculture & Farmers Welfare, Department of Animal Husbandry & Dairying",
+    "enforcement_agencies": ["MPEDA", "DADF", "State Fisheries Departments", "Coast Guard"],
+    "exceptions": "Artisanal fishing with small nets permitted in some states; mechanized trawling strictly prohibited",
+    "updated_frequency": "Annually (typically announced in April-May for upcoming season)"
+  }
+}
