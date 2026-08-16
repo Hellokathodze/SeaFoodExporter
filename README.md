@@ -98,7 +98,7 @@ SustainChain analyzes **5 compliance pillars**:
 
 ## ✨ Features
 
-### **Current Features (Phase 1 - MVP)**
+### **Current Features (Phase 1 - Prototype)**
 
 - ✅ **Real-time Ocean Data**
   - Live ARGO float profiles (Arabian Sea, Bay of Bengal, Equatorial)
