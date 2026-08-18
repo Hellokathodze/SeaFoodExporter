@@ -7,7 +7,7 @@ Team: **MarisMind**
 Organized by: SIH
 
 ---
-Note:- All files related to the  table of contents are present in the documentation folder.
+Note:- All files related to the table of contents are present in the documentation folder.
 ## 📋 Table of Contents
 
 1. [Quick Start](#quick-start)
